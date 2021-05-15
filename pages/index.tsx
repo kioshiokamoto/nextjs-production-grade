@@ -45,10 +45,10 @@ Home.defaultProps = {
   },
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(ctx) {
   return {
     props: {
-      content: home.published,
+      content: ctx.preview ? home.draft : home.published,
     },
   }
 }
