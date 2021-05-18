@@ -36,6 +36,7 @@ export function getStaticProps(ctx) {
     const { data } = matter(post)
     return data
   })
+
   const postsPath = path.join(process.cwd(), 'posts')
   const filenames = fs.readdirSync(postsPath)
   const filePosts = filenames.map((name) => {
