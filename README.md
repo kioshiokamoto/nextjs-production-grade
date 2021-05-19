@@ -16,7 +16,9 @@ Aplicacion en Next.js para con blogs y panel de notas
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot 1](https://github.com/kioshiokamoto/nextjs-production-grade/blob/main/preview/screen2.png?raw=true)
+
+![App Screenshot 2](https://github.com/kioshiokamoto/nextjs-production-grade/blob/main/preview/screen1.png?raw=true)
 
 ## Ejecutar localmente
 
